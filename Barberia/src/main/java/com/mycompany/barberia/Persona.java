@@ -1,8 +1,11 @@
 
 package com.mycompany.barberia;
 
+import java.io.Serializable;
 
-public class Persona {
+
+public class Persona implements Serializable {
+      private static final long serialVersionUID= 1L;
     String nombre;
     String telefono;
     String direccion;
