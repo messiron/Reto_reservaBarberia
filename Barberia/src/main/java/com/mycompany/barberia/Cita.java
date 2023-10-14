@@ -1,8 +1,11 @@
 
 package com.mycompany.barberia;
 
+import java.io.Serializable;
 
-public class Cita {
+
+public class Cita implements Serializable{
+      private static final long serialVersionUID= 1L;
     String fecha,hora;
 
     public Cita() {

@@ -1,8 +1,11 @@
 
 package com.mycompany.barberia;
 
+import java.io.Serializable;
 
-public class Barbero extends Persona{
+
+public class Barbero extends Persona implements Serializable {
+      private static final long serialVersionUID= 1L;
     private String especialidad;
 
     public Barbero() {
