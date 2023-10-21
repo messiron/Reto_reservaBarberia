@@ -1,11 +1,13 @@
 com\mycompany\barberia\Persona.class
-com\mycompany\barberia\Factura.class
-com\mycompany\barberia\Cliente.class
-com\mycompany\barberia\Formulario.class
 com\mycompany\barberia\Barberia.class
 com\mycompany\barberia\ManejoArchivo.class
+com\mycompany\barberia\Servicio.class
 com\mycompany\barberia\Barbero.class
-com\mycompany\barberia\MiObjectOutputStream.class
 com\mycompany\barberia\Validaciones.class
 com\mycompany\barberia\Gestion.class
+com\mycompany\barberia\Factura.class
+com\mycompany\barberia\Reserva.class
+com\mycompany\barberia\Cliente.class
+com\mycompany\barberia\Formulario.class
+com\mycompany\barberia\MiObjectOutputStream.class
 com\mycompany\barberia\Cita.class

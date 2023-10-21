@@ -2,6 +2,7 @@
 package com.mycompany.barberia;
 
 import java.io.*;
+import java.util.HashMap;
 import javax.swing.JOptionPane;
 
 
@@ -10,21 +11,21 @@ public class ManejoArchivo {
         
       public void createRegistro(String nombreArchivo, Cliente cliente)  {
     try {
-         JOptionPane.showMessageDialog(null, "voy a crear!");
+        
                 
          texto= new File(nombreArchivo);
           
         if (texto.exists()) {
-            JOptionPane.showMessageDialog(null, "exite");
+            
             FileOutputStream archivo2 = new FileOutputStream(nombreArchivo, true);
             MiObjectOutputStream miojectOutputStream = new MiObjectOutputStream(archivo2);
             miojectOutputStream.writeObject(cliente);
             archivo2.close();
             miojectOutputStream.close();
-            JOptionPane.showMessageDialog(null, "Agregado!");
+           
         } else {
             
-             JOptionPane.showMessageDialog(null, "no exite");
+            
             FileOutputStream archivo = new FileOutputStream(nombreArchivo, true);
             ObjectOutputStream ojectOutputStream = new ObjectOutputStream(archivo);
             ojectOutputStream.writeObject(cliente); // Cambia aquí a ojectOutputStream
@@ -36,5 +37,32 @@ public class ManejoArchivo {
         
     }
 }  
+public void eliminarRegistro(int id, String nombreArchivo){
+    texto = new File(nombreArchivo);
+    HashMap<Integer,Cliente> hashCliente= new HashMap<>();
+    Cliente cliente = new Cliente();
+    try{
+    if(texto.exists()){
+    FileInputStream filein = new FileInputStream(nombreArchivo);
+    ObjectInputStream in = new ObjectInputStream(filein);
+    while(true){
+        try{
+            cliente = (Cliente)in.readObject();
+            hashCliente.put(cliente.getId(), cliente);
+        }catch(Exception e){
+        break;
+        }
+    }
+      filein.close();
+      in.close();
+      if(hashCliente.containsKey(id));
+      hashCliente.remove(id);
     
+
+    }
+    }catch(Exception e){
+    }
+
+}
+        
 }

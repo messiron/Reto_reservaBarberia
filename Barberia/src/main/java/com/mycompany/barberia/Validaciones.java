@@ -14,7 +14,7 @@ public class Validaciones {
         Cliente cliente = new Cliente();
         HashMap <Integer, Integer> mapaClientes = new HashMap<>();
         try{
-        FileInputStream archivo = new FileInputStream("Clientes.txt");
+        FileInputStream archivo = new FileInputStream("clientes.txt");
             ObjectInputStream objectInputStream = new ObjectInputStream(archivo);
             while(true){
              try{
