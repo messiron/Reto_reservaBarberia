@@ -41,36 +41,9 @@ public class Gestion {
         
     }
        
-                
-    }
-    public String lista (String nombreArchivo){
-        String resul;
-        resul="";
-    texto = new File (nombreArchivo);
-    Servicio servicio = new Servicio();
-    List<Servicio> listaServicio = new ArrayList<>();
-    try{
-    if(texto.exists()){
-        FileInputStream fileIn = new FileInputStream(nombreArchivo);
-        ObjectInputStream In = new ObjectInputStream(fileIn);
-        while(true){
-        try{
-            servicio=(Servicio) In.readObject();
-            listaServicio.add(servicio);
-            
-        }catch(Exception e){
-            break;
-        }
-                }
-        fileIn.close();
-        In.close();
-        
-       for(Servicio servicio1 : listaServicio)
-       resul = resul + " " + servicio1.getId() + " " + servicio1.getNombre() + " " + servicio1.getPrecio() + "\n";
-    }
-    }catch(Exception e){
-    }
-    return resul;
-    }
+          
     
+  
+    }
+      
 }
