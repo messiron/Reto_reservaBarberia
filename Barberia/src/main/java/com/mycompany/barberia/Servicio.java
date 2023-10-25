@@ -4,7 +4,8 @@ package com.mycompany.barberia;
 import java.io.*;
 
 public class Servicio implements Serializable {
-    int id, precio;
+    int id;
+    double precio;
     String nombre;
 
     public Servicio () {
@@ -24,11 +25,11 @@ public class Servicio implements Serializable {
         this.id = id;
     }
 
-    public int getPrecio() {
+    public double getPrecio() {
         return precio;
     }
 
-    public void setPrecio(int precio) {
+    public void setPrecio(double precio) {
         this.precio = precio;
     }
 
@@ -39,5 +40,5 @@ public class Servicio implements Serializable {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-            
+  
 }
