@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 C:\Users\santi\OneDrive\Escritorio\Reto_reservaBarberia\Barberia\src\main\java\com\mycompany\barberia\Gestion.java
 C:\Users\santi\OneDrive\Escritorio\Reto_reservaBarberia\Barberia\src\main\java\com\mycompany\barberia\Formulario.java
 C:\Users\santi\OneDrive\Escritorio\Reto_reservaBarberia\Barberia\src\main\java\com\mycompany\barberia\MiObjectOutputStream.java
@@ -11,3 +12,25 @@ C:\Users\santi\OneDrive\Escritorio\Reto_reservaBarberia\Barberia\src\main\java\c
 C:\Users\santi\OneDrive\Escritorio\Reto_reservaBarberia\Barberia\src\main\java\com\mycompany\barberia\ManejoArchivo.java
 C:\Users\santi\OneDrive\Escritorio\Reto_reservaBarberia\Barberia\src\main\java\com\mycompany\barberia\Persona.java
 C:\Users\santi\OneDrive\Escritorio\Reto_reservaBarberia\Barberia\src\main\java\com\mycompany\barberia\Reserva.java
+=======
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/MiObjectOutputStream.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/GestionReserva.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/Barbero.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/Factura.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/ManipularServicio.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/Servicio.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/ModuloReserva.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/ManejoArchivo.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/moduloAdmin.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/Barberia.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/Validaciones.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/Busqueda.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/Formulario.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/Cliente.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/ManejoArchivoB.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/Gestion.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/Persona.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/Cita.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/ManipularReserva.java
+/home/deivy/Reto_reservaBarberia/Barberia/src/main/java/com/mycompany/barberia/Reserva.java
+>>>>>>> Stashed changes

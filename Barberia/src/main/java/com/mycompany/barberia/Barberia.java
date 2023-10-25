@@ -9,4 +9,5 @@ public class Barberia {
        Formulario formulario = new Formulario();
        formulario.menuPrincipal();
     }
+    
 }

@@ -16,7 +16,7 @@ public class Gestion {
       public void createRegistro(Servicio servicio)  {
     try {
         
-         String nombreArchivo= "servicios.txt";     
+         String nombreArchivo= "Servicio.txt";     
          texto= new File(nombreArchivo);
           
         if (texto.exists()) {
