@@ -1,4 +1,3 @@
-
 package com.mycompany.barberia;
 
 import java.io.File;
