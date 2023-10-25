@@ -3,6 +3,7 @@ package com.mycompany.barberia;
 
 import java.io.*;
 import java.util.*;
+import javax.swing.*;
 
 
 public class Validaciones {
@@ -10,17 +11,17 @@ public class Validaciones {
     public Validaciones() {
     }
    
-    public boolean validarExistencia (int id){
-        Cliente cliente = new Cliente();
-        HashMap <Integer, Integer> mapaClientes = new HashMap<>();
+    public boolean validarExistencia (int id,String nombreArchivo){
+        Persona persona= new Persona();
+        HashMap <Integer, Integer> mapaPersona = new HashMap<>();
         try{
-        FileInputStream archivo = new FileInputStream("clientes.txt");
+        FileInputStream archivo = new FileInputStream(nombreArchivo);
             ObjectInputStream objectInputStream = new ObjectInputStream(archivo);
             while(true){
              try{
-            cliente=(Cliente)objectInputStream.readObject(); 
-            mapaClientes.put(cliente.getId(), cliente.getId());
-                 System.out.println(cliente.getId());
+            persona=(Persona)objectInputStream.readObject(); 
+            mapaPersona.put(persona.getId(), persona.getId());
+                 System.out.println(persona.getId());
              }catch(Exception e){
                  break;
              }
@@ -31,8 +32,9 @@ public class Validaciones {
                
     }catch(Exception e){
     }
-         boolean resulatado=mapaClientes.containsValue(id);
+         boolean resulatado=mapaPersona.containsValue(id);
          System.out.println(resulatado);
         return resulatado;
-}
+
+    }
 }
